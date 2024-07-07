@@ -1,13 +1,53 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Merriweather", serif;
+}
+
+
+
+/* common style */
+
+header,main{
+    max-width: 1320px;
+    margin: 50px auto;
 }
 
 
 /* header section */
 
+header {
+    height: 600px;
+    background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0)100%), url(images/Banner.png) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 16px;
+    
+}
+
+header .hero h1 {
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+header .hero h2{
+/* Happy New Year */
+color: rgb(255, 255, 255);
+text-align: center;
+
+}
+header .hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
