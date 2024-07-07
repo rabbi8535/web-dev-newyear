@@ -16,6 +16,7 @@ header,
 main {
     max-width: 1320px;
     margin: 50px auto;
+    cursor: pointer;
 }
 
 
@@ -60,13 +61,13 @@ header .hero {
 
 /* discount section*/
 
-.discount{
+.discount {
     max-width: 800px;
     margin: auto;
-   
+
 }
 
-.discount-container{
+.discount-container {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -75,39 +76,111 @@ header .hero {
     padding: 50px;
 }
 
-.dc-tittle{
+.dc-tittle {
     padding: 48px;
 }
-.dc-tittle h1{
-    font-family: "Inter", sans-serif;;
-    color:rgb(255, 0, 0) ;
+
+.dc-tittle h1 {
+    font-family: "Inter", sans-serif;
+    ;
+    color: rgb(255, 0, 0);
     font-size: 88px;
     font-weight: 700;
     line-height: 107px;
     padding-bottom: 25px;
 
 }
-.dc-tittle p{
-    font-family: "Inter", sans-serif;;
+
+.dc-tittle p {
+    font-family: "Inter", sans-serif;
+    ;
     color: rgb(255, 0, 0);
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
 }
-.dc-tittle h3{
-    font-family: "Inter", sans-serif;;
-    color: rgb(7,2,17);
+
+.dc-tittle h3 {
+    font-family: "Inter", sans-serif;
+    ;
+    color: rgb(7, 2, 17);
     font-size: 48px;
     font-weight: 700px;
     line-height: 58px;
     padding: 20px 0px;
 }
 
-.dc-img{
+.dc-img {
     max-width: 100%;
     max-height: 500px;
 }
-.dc-img img{
+
+.dc-img img {
     width: 100%;
     height: 100%;
+}
+
+
+/* midnight section*/
+
+.midnight {
+   
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url(images/Vectorrr.png) no-repeat center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.midnight-container {
+
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mn-tittle h2 {
+
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    padding-bottom: 20px;
+}
+
+.mn-tittle p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mn-tittle span {
+    display: inline-block;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.mn-img {
+    max-width: 550px;
+    max-height: 465px;
+
+
+}
+
+.mn-img img {
+    width: 100%;
+    height: 100%;
+
 }
