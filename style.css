@@ -252,6 +252,8 @@ header .hero {
     width: 100%;
     height: 450px;
     font-family: 'Inter';
+    margin-bottom: 150px;
+
 }
 
 .anounce-container {
@@ -260,13 +262,13 @@ header .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+  
 
 }
 
 .anounce-container .div1 {
     text-align: left;
-    padding: 12px 10px 30px;
+    padding: 12px 61px 30px;
 
 }
 
@@ -303,5 +305,91 @@ header .hero {
 
 .anounce-container .div2 {
     margin:0px 103px 6px -7px;
+    border-radius: 50%;
+    outline-offset: 30px;
+    outline:5px solid rgb(255, 0, 0); ;
 }
+
+
+/* holiday section*/
+
+.holiday{
+  
+    width:100%;
+    height: 980px;
+   
+  
+}
+
+.holiday-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.holiday-img{
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+
+.holiday-img img{
+    width: 100%;
+}
+
+.holiday-tittle{
+    width: 1068px;
+    height: 260px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.holiday-tittle h5{
+    font-family: 'Inter';
+    color:rgb(7, 2, 17) ;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.holiday-tittle h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    padding: 20px 0px;
+}
+.holiday-tittle h1 span{
+    color: rgb(255, 0, 0);
+}
+
+.holiday-tittle p{
+    font-family: 'Inter';
+    color: rgba(7, 2, 17, 0.6);
+    font-size:20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 150px;
+}
+
+.holiday-container .img{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.holiday-container .img .img1{
+    width:675px ;
+    height: 577px;
+    z-index: 1;
+}
+.holiday-container .img .img2{
+    width:305px ;
+    height: 305px;
+}
+
 
