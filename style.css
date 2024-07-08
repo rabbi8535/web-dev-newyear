@@ -248,7 +248,7 @@ header .hero {
 /* anounce section*/
 
 .anounce {
-    
+
     width: 100%;
     height: 450px;
     font-family: 'Inter';
@@ -262,7 +262,7 @@ header .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 
 }
 
@@ -304,40 +304,42 @@ header .hero {
 
 
 .anounce-container .div2 {
-    margin:0px 103px 6px -7px;
+    margin: 0px 103px 6px -7px;
     border-radius: 50%;
     outline-offset: 30px;
-    outline:5px solid rgb(255, 0, 0); ;
+    outline: 5px solid rgb(255, 0, 0);
+    ;
 }
 
 
 /* holiday section*/
 
-.holiday{
-  
-    width:100%;
+.holiday {
+
+    width: 100%;
     height: 980px;
-   
-  
+
+
 }
 
-.holiday-container{
+.holiday-container {
     width: 100%;
     height: 100%;
     position: relative;
 }
-.holiday-img{
+
+.holiday-img {
     position: absolute;
     bottom: 0;
-    
-    
+
+
 }
 
-.holiday-img img{
+.holiday-img img {
     width: 100%;
 }
 
-.holiday-tittle{
+.holiday-tittle {
     width: 1068px;
     height: 260px;
     position: absolute;
@@ -346,34 +348,37 @@ header .hero {
     margin: auto;
     text-align: center;
 }
-.holiday-tittle h5{
+
+.holiday-tittle h5 {
     font-family: 'Inter';
-    color:rgb(7, 2, 17) ;
+    color: rgb(7, 2, 17);
     font-size: 24px;
     font-weight: 500;
     line-height: 29px;
 }
-.holiday-tittle h1{
+
+.holiday-tittle h1 {
     font-family: "Merriweather", serif;
     font-size: 72px;
     font-weight: 900;
     line-height: 91px;
     padding: 20px 0px;
 }
-.holiday-tittle h1 span{
+
+.holiday-tittle h1 span {
     color: rgb(255, 0, 0);
 }
 
-.holiday-tittle p{
+.holiday-tittle p {
     font-family: 'Inter';
     color: rgba(7, 2, 17, 0.6);
-    font-size:20px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 32px;
     padding-bottom: 150px;
 }
 
-.holiday-container .img{
+.holiday-container .img {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -382,14 +387,83 @@ header .hero {
 
 }
 
-.holiday-container .img .img1{
-    width:675px ;
+.holiday-container .img .img1 {
+    width: 675px;
     height: 577px;
     z-index: 1;
 }
-.holiday-container .img .img2{
-    width:305px ;
+
+.holiday-container .img .img2 {
+    width: 305px;
     height: 305px;
 }
 
+
+/* portfolio section */
+
+.portfolio {
+    width: 100%;
+    height: 1163px;
+    margin: 120px 0px;
+}
+
+.portfolio-container {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+
+.portfolio-container h5 {
+    font-family: 'Inter';
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.portfolio-container h2 {
+    font-family: 'Merriweather';
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    padding: 20px 0px;
+}
+
+.portfolio-container p {
+    color: rgba(7, 2, 17, 0.6);
+    width: 896px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 50px;
+    
+
+}
+
+.portfolio-container .card-container{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.portfolio-container .card-container .card{
+    width: 400px;
+    height: 450px;
+    border-radius: 16px;
+    
+
+}
+
+.portfolio-container .card-container .card img{
+    width: 100%;
+    height: 100%;
+}
 
